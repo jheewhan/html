@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joseph J Kim</title>
+<meta charset="utf-8">
+<meta name="Description" CONTENT="Joseph J Kim - Artist">
+<meta name="keywords" content="Joseph Kim, Cooper Union, Artist, Art">
+
+<style type="text/css">
+
+@font-face {
+	font-family: "NB International";
+	src: url('NB International Pro Regular.otf') format('opentype');
+	}
+
+@font-face {
+	font-family: "NB International";
+	src: url('NB International Pro Bold.otf') format('opentype');
+	font-weight: bold;
+	}
+
+html, body {
+	padding:0;
+	margin:0;
+	border:0;
+	width: 100%;
+	height: 100%;
+	}
+
+body {
+	font-family: NB International;
+	font-size: 20px;
+	color: white;
+}
+
+p {
+    font-family: NB International;
+}
+
+.header {
+	float: left;
+	position:fixed;
+	width: 100%;
+	left: 10px;
+	top: 10px;
+    line-height: 120%;
+    color: white;
+    z-index: 5;
+	}
+
+a {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  }
+
+a:link {text-decoration: none; color: #fff;}
+a:visited {text-decoration: none; color: #fff;}
+a:hover {text-decoration: none; color: blue;}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #FFFFFF;
+}
+
+.textdiv {
+padding-left: 120px;
+padding-right: 120px;
+}
+
+.container{
+height: 100vh;
+width: 100vw;
+position: relative;
+}
+
+.body2 {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+font-size: 100px;
+}
+
+</style>
+
+<script src="blue.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("info");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+</head>
+
+<body>
+<style>
+
+</style>
+<p>
+<div class="header">
+<a href="http://josephj.kim">Joseph J Kim</a>
+	<br><a onclick="myFunction()">Info</a>
+	<span id="info" style="display: none">
+	Born 1993
+	<br>BFA Cooper Union New York 2015
+	<br>Exchange UCL Slade London 2013
+	<br>Currently living and working in Austin, TX.
+	</span>
+	<br><a href="mailto:josephkim1993@gmail.com" target="_top">Contact</a>
+</div>
+
+<div class="container">
+<div class="body2">
+<center>
+	<u>Joseph J Kim</u>
+	<br>> <a href="https://www.62.studio">Studio 62</a> <
+	<br>> <a href="mailto:josephkim1993@gmail.com" target="_top">Contact</a> <
+</center>
+</div>
+</div>
+</p>
+</body>
+</html>
